@@ -14,4 +14,4 @@ use App\Http\Controllers\TrainController;
 |
 */
 
-Route::get('/', [TrainController::class, 'index'])->name('home');
+Route::get('/', [TrainController::class, 'home'])->name('home');
